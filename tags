@@ -1,0 +1,132 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACKNOWLEGDE	global.h	22;"	d
+CALCULATE	global.h	12;"	d
+DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+GLOBAL_H	global.h	2;"	d
+GetCompilationInfoForFile	.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+INIT_CAPACITY	int_vector.c	5;"	d	file:
+INIT_CAPACITY	vector.c	5;"	d	file:
+INT_VECTOR_H	int_vector.h	2;"	d
+IsHeaderFile	.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+K	circuit.c	/^static int N, K, V;$/;"	v	file:
+LINE_MAX	parser.c	11;"	d	file:
+MAIN_PROCESS_H	main_process.h	2;"	d
+MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+N	circuit.c	/^static int N, K, V;$/;"	v	file:
+NODES_MAX	circuit.c	13;"	d	file:
+NODES_MAX	main_process.c	14;"	d	file:
+NODE_H	node.h	2;"	d
+NUMBER	global.h	5;"	d
+OPERATOR	global.h	7;"	d
+PARSER_H	parser.h	2;"	d
+RESULT	global.h	16;"	d
+SET_VALUE	global.h	19;"	d
+SOURCE_EXTENSIONS	.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+TASKS_MAX	node_process.c	12;"	d	file:
+V	circuit.c	/^static int N, K, V;$/;"	v	file:
+VARIABLE	global.h	6;"	d
+VARIABLES_MAX	circuit.c	12;"	d	file:
+VECTOR_H	vector.h	2;"	d
+_ERR_	err.h	2;"	d
+add_nodes	circuit.c	/^static void add_nodes(struct node *expresion) {$/;"	f	file:
+calculate_with_initialization	main_process.c	/^void calculate_with_initialization(int task_number, struct int_vector *variables, struct int_vector *values) {$/;"	f
+calculated_results	node_process.c	/^static int calculated_results[TASKS_MAX + 1];$/;"	v	file:
+capacity	int_vector.h	/^	int capacity;$/;"	m	struct:int_vector
+capacity	vector.h	/^	int capacity;$/;"	m	struct:vector
+children	node.h	/^	struct vector *children;$/;"	m	struct:node	typeref:struct:node::vector
+children_read_dsc	node.h	/^	struct int_vector *children_read_dsc;$/;"	m	struct:node	typeref:struct:node::int_vector
+children_read_dsc	node_process.c	/^static struct int_vector *children_read_dsc;$/;"	v	typeref:struct:int_vector	file:
+children_write_dsc	node.h	/^	struct int_vector *children_write_dsc;$/;"	m	struct:node	typeref:struct:node::int_vector
+children_write_dsc	node_process.c	/^static struct int_vector *children_write_dsc;$/;"	v	typeref:struct:int_vector	file:
+close_uneeded_pipes	main_process.c	/^static void close_uneeded_pipes(struct node *source) {$/;"	f	file:
+compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+create_int_vector	int_vector.c	/^struct int_vector *create_int_vector() {$/;"	f
+create_node	node.c	/^struct node *create_node(int type) {$/;"	f
+create_node_process	main_process.c	/^static int create_node_process(struct node *node) {$/;"	f	file:
+create_processes	main_process.c	/^void create_processes(struct node *source) {$/;"	f
+create_vector	vector.c	/^struct vector *create_vector() {$/;"	f
+database	.ycm_extra_conf.py	/^  database = None$/;"	v
+database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+definition	circuit.c	/^struct node *definition[VARIABLES_MAX];$/;"	v	typeref:struct:node
+elements	int_vector.h	/^	int *elements;$/;"	m	struct:int_vector
+elements	vector.h	/^	void **elements;$/;"	m	struct:vector
+fatal	err.c	/^void fatal(const char *fmt, ...)$/;"	f
+flags	.ycm_extra_conf.py	/^flags = [$/;"	v
+free_int_vector	int_vector.c	/^void free_int_vector(struct int_vector *vector) {$/;"	f
+free_memory	node_process.c	/^static void free_memory() {$/;"	f	file:
+free_node	node.c	/^void free_node(struct node *node) {$/;"	f
+free_nodes	circuit.c	/^static void free_nodes(struct node *source) {$/;"	f	file:
+free_vector	vector.c	/^void free_vector(struct vector *vector) {$/;"	f
+int_vector	int_vector.h	/^struct int_vector {$/;"	s
+internal_id	node.h	/^	int internal_id;$/;"	m	struct:node
+is_dependent	circuit.c	/^static bool is_dependent(struct node *expresion, int variable) {$/;"	f	file:
+is_value_set	node_process.c	/^static bool is_value_set[TASKS_MAX + 1];$/;"	v	file:
+join	main_process.c	/^void join() {$/;"	f
+last_node	main_process.c	/^static int last_node = 0;$/;"	v	file:
+line	parser.c	/^static char*line;$/;"	v	file:
+main	circuit.c	/^int main() {$/;"	f
+main	node_process.c	/^int main(int argc, char **argv) {$/;"	f
+main_loop	node_process.c	/^static void main_loop(int entries_size, struct pollfd *entries) {$/;"	f	file:
+main_process_read_dsc	node.h	/^	int main_process_read_dsc;$/;"	m	struct:node
+main_read_dsc	node_process.c	/^static int main_read_dsc;$/;"	v	file:
+main_write_dsc	node_process.c	/^static int main_write_dsc;$/;"	v	file:
+merge_expresions	circuit.c	/^static void merge_expresions() {$/;"	f	file:
+node	node.h	/^struct node {$/;"	s
+node_pid	main_process.c	/^static pid_t node_pid[NODES_MAX];$/;"	v	file:
+node_value	node_process.c	/^static int node_value = -1;$/;"	v	file:
+nodes	circuit.c	/^struct vector *nodes[VARIABLES_MAX];$/;"	v	typeref:struct:vector
+operation	node.h	/^	char operation;$/;"	m	struct:node
+operation	node_process.c	/^static char operation = '\\0';$/;"	v	file:
+os	.ycm_extra_conf.py	/^import os$/;"	i
+parent_read_dsc	node.h	/^	int parent_read_dsc[2];$/;"	m	struct:node
+parent_write_dsc	node.h	/^	int parent_write_dsc[2];$/;"	m	struct:node
+parents	node.h	/^	struct node *parents[2];$/;"	m	struct:node	typeref:struct:node::node
+parents_read_dsc	node_process.c	/^static struct int_vector *parents_read_dsc;$/;"	v	typeref:struct:int_vector	file:
+parents_write_dsc	node_process.c	/^static struct int_vector *parents_write_dsc;$/;"	v	typeref:struct:int_vector	file:
+pos	parser.c	/^static int pos;$/;"	v	file:
+process_message_from_child	node_process.c	/^static void process_message_from_child(int message_type, int read_dsc, int write_dsc) {$/;"	f	file:
+process_message_from_main_thread	node_process.c	/^static void process_message_from_main_thread(int message_type, int read_dsc) {$/;"	f	file:
+process_message_from_parent	node_process.c	/^static void process_message_from_parent(int message_type, int read_dsc) {$/;"	f	file:
+process_parameters	node_process.c	/^static void process_parameters(int argc, char **argv) {$/;"	f	file:
+process_queries	circuit.c	/^static void process_queries() {$/;"	f	file:
+push_back	vector.c	/^void push_back(struct vector *vector, void *el) {$/;"	f
+push_back_int	int_vector.c	/^void push_back_int(struct int_vector *vector, int el) {$/;"	f
+read_definitions	circuit.c	/^static int read_definitions() {$/;"	f	file:
+read_dsc	main_process.c	/^static int read_dsc[NODES_MAX];$/;"	v	file:
+read_expresion	parser.c	/^struct node *read_expresion() {$/;"	f
+read_remaining_results	main_process.c	/^void read_remaining_results(int expected_results) {$/;"	f
+received_results	main_process.c	/^static int received_results = 0;$/;"	v	file:
+received_results	node_process.c	/^static int received_results[TASKS_MAX + 1];$/;"	v	file:
+root_created	circuit.c	/^static bool root_created = false;$/;"	v	file:
+root_id	main_process.c	/^static int root_id = -1;$/;"	v	file:
+send_acknowledge	node_process.c	/^static void send_acknowledge(int dsc) {$/;"	f	file:
+send_calculate	node_process.c	/^static void send_calculate(int dsc, int task_number) {$/;"	f	file:
+send_result	node_process.c	/^static void send_result(int dsc, int task_number, int value) {$/;"	f	file:
+send_variables	main_process.c	/^static void send_variables(int task_number, struct int_vector *variables, struct int_vector *values) {$/;"	f	file:
+size	int_vector.h	/^	int size;$/;"	m	struct:int_vector
+size	vector.h	/^	int size;$/;"	m	struct:vector
+str_to_vector	node_process.c	/^static struct int_vector *str_to_vector(char *str) {$/;"	f	file:
+syserr	err.c	/^void syserr(const char *fmt, ...)  $/;"	f
+try_read_binary	parser.c	/^static struct node *try_read_binary() {$/;"	f	file:
+try_read_char	parser.c	/^static bool try_read_char(char c) {$/;"	f	file:
+try_read_expresion	parser.c	/^static struct node *try_read_expresion() {$/;"	f	file:
+try_read_negation	parser.c	/^static struct node *try_read_negation() {$/;"	f	file:
+try_read_number	parser.c	/^static bool try_read_number(long *res) {$/;"	f	file:
+try_read_pnum	parser.c	/^static struct node *try_read_pnum() {$/;"	f	file:
+try_read_string	parser.c	/^static bool try_read_string(const char *s) {$/;"	f	file:
+try_read_var	parser.c	/^static struct node *try_read_var() {$/;"	f	file:
+type	node.h	/^	int type;$/;"	m	struct:node
+type	node_process.c	/^static int type;$/;"	v	file:
+type_c	node_process.c	/^static char type_c;$/;"	v	file:
+value	node.h	/^	int value;$/;"	m	struct:node
+values	node_process.c	/^static int values[TASKS_MAX + 1];$/;"	v	file:
+vector	vector.h	/^struct vector {$/;"	s
+waiting_for_result	node_process.c	/^static struct int_vector *waiting_for_result[TASKS_MAX];$/;"	v	typeref:struct:int_vector	file:
+write_dsc	main_process.c	/^static int write_dsc[NODES_MAX];$/;"	v	file:
+ycm_core	.ycm_extra_conf.py	/^import ycm_core$/;"	i
