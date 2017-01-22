@@ -1,3 +1,4 @@
+// File from https://www.mimuw.edu.pl/~janowska/PW-LAB/11-c-procesy/lab11/
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

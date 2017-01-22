@@ -109,7 +109,7 @@ void join() {
 			int status;
 			waitpid(node_pid[i], &status, 0);
 			if(status != 0) {
-				printf("Process %d exited with status %d\n", i, status);
+				fprintf(stderr, "Process %d exited with status %d\n", i, status);
 			}
 		}
 

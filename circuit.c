@@ -181,29 +181,3 @@ static bool is_dependent(struct node *expresion, int variable) {
 	}
 	return false;
 }
-
-/*
-static void print_expresion(struct node *s) {
-	if(s->type == NUMBER) {
-		printf("%d", s->value);
-	} else if(s->type == VARIABLE) {
-		if(s->parents[0] != NULL) {
-			print_expresion(s->parents[0]);
-		}
-		else {
-			printf("x[%d]", s->value);
-		}
-	} else if(s->type == OPERATOR) {
-		printf("(");
-		if(s->operation == '-') {
-			printf("-");
-			print_expresion(s->parents[0]);
-		} else {
-			print_expresion(s->parents[0]);
-			printf("%c", s->operation);
-			print_expresion(s->parents[1]);
-		}
-		printf(")");
-	}
-}
-*/

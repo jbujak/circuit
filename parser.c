@@ -26,7 +26,7 @@ static bool try_read_string(const char *s);
 
 static bool try_read_char(char c);
 
-static char*line;
+static char *line;
 
 static int pos;
 
